@@ -92,26 +92,73 @@ header button {
 }
 
 /* <!-- my inspiration part --> */
-.my-inspiration{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px 0;
-   
+.my-inspiration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
 }
 
-.my-inspiration h1{
-    font-size: 70px;
-    font-weight: 700px;
-    margin-left: 500px;
+.my-inspiration h1 {
+  font-size: 70px;
+  font-weight: 700px;
+  margin-left: 500px;
 }
-.my-inspiration p{
+.my-inspiration p {
+  font-size: 30px;
+  font-weight: 400px;
+  margin-left: 400px;
+}
+.video {
+  height: 700px;
+  width: 100%;
+  margin: 5px;
+}
+
+/* current target */
+.current-target-des h1 {
+  font-size: 70px;
+  font-weight: 800px;
+  margin-left: 500px;
+}
+.current-target-section{
+    margin: 20px;
+}
+.current-target-des p{
     font-size: 30px;
     font-weight: 400px;
     margin-left: 400px;
 }
-.video{
-    height: 700px;
-    width: 100%;
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap:25px;
+   
+  
+   
+ 
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.shared-feature{
     margin: 5px;
+    padding: 10px;
+    text-wrap: wrap;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.25);
+   
+}
+.html{
+    background-color: rgb(241, 241, 202);
+    
+}
+.css{
+    background-color: rgb(208, 231, 224);
+   
+
+}
+.js{
+background-color: rgb(236, 242, 242);
+
 }
