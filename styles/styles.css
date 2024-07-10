@@ -121,44 +121,102 @@ header button {
   font-weight: 800px;
   margin-left: 500px;
 }
-.current-target-section{
-    margin: 20px;
+.current-target-section {
+  margin: 20px;
 }
-.current-target-des p{
-    font-size: 30px;
-    font-weight: 400px;
-    margin-left: 400px;
+.current-target-des p {
+  font-size: 30px;
+  font-weight: 400px;
+  margin-left: 400px;
 }
-.card{
-    display: flex;
-    justify-content: space-between;
-    gap:25px;
-   
+.card {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.card a {
+  text-decoration: none;
+  color: black;
+}
+.shared-feature {
+  margin: 5px;
+  padding: 10px;
+  text-wrap: wrap;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.25);
+}
+.html {
+  background-color: rgb(241, 241, 202);
   
-   
- 
 }
-.card a{
-    text-decoration: none;
+.html p{
     color: black;
 }
-.shared-feature{
-    margin: 5px;
+.css {
+  background-color: rgb(208, 231, 224);
+  
+}
+.css p{
+    color: black;
+}
+.js {
+  background-color: rgb(236, 242, 242);
+}
+.js p{
+    color: black;
+}
+
+/* footer */
+footer {
+  margin: 40px 10px;
+}
+.footer-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px ;
+}
+.form-container {
+  background-image:linear-gradient(
+    to bottom,
+    rgb(119, 113, 113) 0,
+    rgba(142, 121, 121, 0) 80%
+  ), url("../images/handshake.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container h1,
+p {
+  color: white;
+}
+
+.form-container h1{
+    margin-left: 300px;
+}
+.form-container p{
+    margin-left: 300px;
+}
+
+
+
+.placeholder {
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.submit{
+    margin-left: 250px;
+}
+.submit button{
+    height: 65px;
+    width: 150px;
+    border-radius: 10px;
     padding: 10px;
-    text-wrap: wrap;
-    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.25);
-   
-}
-.html{
-    background-color: rgb(241, 241, 202);
-    
-}
-.css{
-    background-color: rgb(208, 231, 224);
-   
-
-}
-.js{
-background-color: rgb(236, 242, 242);
-
 }
