@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+    
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ .header-part{
+    background-image: url("../images/Hero-bg.png");
+    
+    height: 800px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ header h1{
+    font-size: 60px;
+    font-weight: 800;
+    
+ }
+ header p{
+    /* margin-left: 100px; */
+    font-size: 20px;
+ }
+ header button {
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 250px;
+ }
