@@ -90,3 +90,28 @@ header button {
   display: flex;
   flex-direction: column;
 }
+
+/* <!-- my inspiration part --> */
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+   
+}
+
+.my-inspiration h1{
+    font-size: 70px;
+    font-weight: 700px;
+    margin-left: 500px;
+}
+.my-inspiration p{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-left: 400px;
+}
+.video{
+    height: 700px;
+    width: 100%;
+    margin: 5px;
+}
